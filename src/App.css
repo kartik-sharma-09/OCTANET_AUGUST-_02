@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+.todo-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-task button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item button:first-of-type {
+  background-color: #28a745;
+}
+
+.task-item button:hover {
+  opacity: 0.8;
+}
+
+.edit-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-task input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.edit-task button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-task button:hover {
+  background-color: #0056b3;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
